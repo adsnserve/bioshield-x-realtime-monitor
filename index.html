@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BioShield X Real-Time Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>BioShield X Monitoring</h1>
+    <button id="connectBtn">Connect to Device</button>
+    <div id="status">Status: Not connected</div>
+    <div id="readings">
+      <p><strong>Heart Rate:</strong> <span id="heartRate">--</span> bpm</p>
+      <p><strong>Temperature:</strong> <span id="temperature">--</span> °C</p>
+      <p><strong>Radiation Level:</strong> <span id="radiation">--</span> μSv/h</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
